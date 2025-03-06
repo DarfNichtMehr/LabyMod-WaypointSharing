@@ -1,0 +1,39 @@
+{
+  "waypointsharing": {
+    "button": {
+      "share": "Share",
+      "copy": "Copy",
+      "import": "Import"
+    },
+    "command": {
+      "waypointAdded": "Waypoint added successfully!",
+      "usage": "Usage: /waypointsharing <dimension> <x> <y> <z> <name>"
+    },
+    "chat": {
+      "clickToAdd": "Click to add",
+      "name": "Name: %s",
+      "dimension": "Dimension: %s",
+      "position": "Position: %s %s %s"
+    },
+    "settings": {
+      "enabled": {
+        "name": "Enabled"
+      },
+      "addWithoutConfirmation": {
+        "name": "Add Without Confirmation",
+        "description": "Turning this off gives you the opportunity to modify the waypoint before creating it"
+      },
+      "openMenuKeys": {
+        "name": "Open Menu Hotkey"
+      },
+      "getWaypoints": {
+        "name": "Waypoints"
+      },
+      "header": {
+        "waypointsPlaceholder": {
+          "name": "Waypoints"
+        }
+      }
+    }
+  }
+}
