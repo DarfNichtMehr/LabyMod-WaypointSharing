@@ -1,7 +1,7 @@
-package de.darfnichtmehr.commands;
+package de.darfnichtmehr.waypointsharing.commands;
 
-import de.darfnichtmehr.WaypointSharingAddon;
-import de.darfnichtmehr.activity.AddWaypointActivity;
+import de.darfnichtmehr.waypointsharing.WaypointSharingAddon;
+import de.darfnichtmehr.waypointsharing.activity.AddWaypointActivity;
 import net.labymod.addons.waypoints.Waypoints;
 import net.labymod.addons.waypoints.waypoint.WaypointBuilder;
 import net.labymod.addons.waypoints.waypoint.WaypointMeta;

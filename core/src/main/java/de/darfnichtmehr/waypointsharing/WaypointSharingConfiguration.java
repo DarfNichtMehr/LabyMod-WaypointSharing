@@ -1,6 +1,6 @@
-package de.darfnichtmehr;
+package de.darfnichtmehr.waypointsharing;
 
-import de.darfnichtmehr.activity.ShareWaypointActivity;
+import de.darfnichtmehr.waypointsharing.activity.ShareWaypointActivity;
 import net.labymod.api.addon.AddonConfig;
 import net.labymod.api.client.gui.screen.activity.Activity;
 import net.labymod.api.client.gui.screen.key.Key;

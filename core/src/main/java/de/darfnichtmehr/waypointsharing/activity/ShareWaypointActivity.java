@@ -1,4 +1,4 @@
-package de.darfnichtmehr.activity;
+package de.darfnichtmehr.waypointsharing.activity;
 
 import net.labymod.addons.waypoints.activity.WaypointsActivity;
 import net.labymod.addons.waypoints.activity.widgets.WaypointListItemWidget;

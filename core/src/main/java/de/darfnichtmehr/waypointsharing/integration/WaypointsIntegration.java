@@ -1,7 +1,7 @@
-package de.darfnichtmehr.integration;
+package de.darfnichtmehr.waypointsharing.integration;
 
-import de.darfnichtmehr.WaypointSharingConfiguration;
-import de.darfnichtmehr.util.MessageTransformer;
+import de.darfnichtmehr.waypointsharing.WaypointSharingConfiguration;
+import de.darfnichtmehr.waypointsharing.util.MessageTransformer;
 import net.labymod.api.Laby;
 import net.labymod.api.addon.integration.AddonIntegration;
 import net.labymod.api.client.gui.screen.key.Key;
@@ -46,7 +46,8 @@ public class WaypointsIntegration implements AddonIntegration {
     }
 
     WaypointSharingConfiguration config = (
-        (WaypointSharingConfiguration) DefaultAddonService.getInstance().getMainConfiguration("waypointsharing")
+        (WaypointSharingConfiguration) DefaultAddonService.getInstance().getMainConfiguration(
+            "waypointsharing")
     );
 
     Key[] keys = config.openMenuKeys().get();

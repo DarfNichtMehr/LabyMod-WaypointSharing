@@ -1,7 +1,7 @@
-package de.darfnichtmehr;
+package de.darfnichtmehr.waypointsharing;
 
-import de.darfnichtmehr.commands.WaypointSharingCommand;
-import de.darfnichtmehr.integration.WaypointsIntegration;
+import de.darfnichtmehr.waypointsharing.commands.WaypointSharingCommand;
+import de.darfnichtmehr.waypointsharing.integration.WaypointsIntegration;
 import net.labymod.api.Laby;
 import net.labymod.api.addon.LabyAddon;
 import net.labymod.api.models.addon.annotation.AddonMain;

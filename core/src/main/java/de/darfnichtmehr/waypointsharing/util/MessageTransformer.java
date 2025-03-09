@@ -1,4 +1,4 @@
-package de.darfnichtmehr.util;
+package de.darfnichtmehr.waypointsharing.util;
 
 import net.labymod.api.client.chat.ChatMessage;
 import net.labymod.api.client.component.Component;

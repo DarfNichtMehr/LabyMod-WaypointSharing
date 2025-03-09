@@ -5,11 +5,11 @@ plugins {
 
 val versions = providers.gradleProperty("net.labymod.minecraft-versions").get().split(";")
 
-group = "de.darfnichtmehr"
+group = "de.darfnichtmehr.waypointsharing"
 version = providers.environmentVariable("VERSION").getOrElse("1.0.0")
 
 labyMod {
-    defaultPackageName = "de.darfnichtmehr" //change this to your main package name (used by all modules)
+    defaultPackageName = "de.darfnichtmehr.waypointsharing" //change this to your main package name (used by all modules)
 
     minecraft {
         registerVersion(versions.toTypedArray()) {
